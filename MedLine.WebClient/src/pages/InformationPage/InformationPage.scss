@@ -1,0 +1,42 @@
+.board{
+    max-width: 80%;
+    min-height: 500px;
+    justify-content: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.board__editButton {
+    display: grid;
+    justify-items: end;
+    padding-top: 10px;
+}
+.board__headBoard {
+    padding: 20px;
+    justify-content: center;  
+    text-align: center;
+    display: grid;
+    font-size: 40px;
+    font-weight: bold;
+}
+.board__textBoard{
+    padding: 20px;
+    margin-bottom: 70px;
+    display: grid;
+    font-size: larger;
+    white-space: initial;
+    word-break: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-indent: 60px;
+}
+.board__endTextBoard{
+    display: grid;
+    text-align: end;
+    padding: 20px;
+    font-size: small;
+}

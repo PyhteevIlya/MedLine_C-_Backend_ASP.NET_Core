@@ -1,0 +1,31 @@
+.timeSlots-header {
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.timeSlots-onDay {
+    border-top-width: 5px;
+    border-style: dashed;
+    padding: 2%;
+}
+.timeSlots-onDay__header {
+    font-size: large;
+    font-weight: 500;
+}
+.button-slot {
+margin-right: 3%;
+margin-top: 1%;
+width: 80px;
+height: 40px;
+font-size: larger;
+font-weight: 500;
+background-image: linear-gradient(to right, #3366cc 0%, #0099ff 51%, #3366cc 100%);
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+}

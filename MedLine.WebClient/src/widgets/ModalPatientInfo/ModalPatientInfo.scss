@@ -1,0 +1,18 @@
+.patient-info-form {
+    padding: 10px;
+}
+.patient-info-form__patientProp {
+    display: grid;
+    grid-template-columns: 250px auto;
+    border-bottom: 1px solid;
+    margin: 1px;
+}
+.patientProp__header {
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+}
+.patientProp__paragraph {
+    display: flex;
+    font-size: medium;
+}

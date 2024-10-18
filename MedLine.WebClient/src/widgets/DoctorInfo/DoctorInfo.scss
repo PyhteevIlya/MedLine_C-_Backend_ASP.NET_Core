@@ -1,0 +1,60 @@
+.pageContainer {
+    max-width: 60%;
+    justify-content: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectFirstDI {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.sectSecondDI {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 100px;
+    gap: 100px;
+    overflow: hidden;
+}
+.divFirstDI {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+}
+
+.divSecondDI {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.recordDI {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.divDI {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doctorNameDI {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.doctorSpecializationDI {
+    font-size: 20px;
+}
+.doctorDescription {
+    font-size: 20px;
+    white-space: initial;
+    word-break: normal;
+}

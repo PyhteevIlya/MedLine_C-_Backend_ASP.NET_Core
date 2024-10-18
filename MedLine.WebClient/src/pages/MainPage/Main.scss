@@ -1,0 +1,25 @@
+.divM {
+    margin-top: 50px;
+    margin-bottom: 20%;
+    width: 90%;
+    color: black;
+    //display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: max-content;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.breadCrumb{
+    margin-left: 20px;
+    margin-top: 10px;
+}

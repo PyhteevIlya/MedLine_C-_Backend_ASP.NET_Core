@@ -1,0 +1,47 @@
+
+.containerFormRecord {
+    display: flex;
+    width: 100%;
+}
+.containerImage {
+    flex: 0 0 36%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm {
+    flex: 0 0 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.record {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.dateTimeText {
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+}
+.doctorName {
+    font-size: large;
+    font-weight: bold;
+    margin: 8px;
+}
+.doctorSpeci {
+    font-size: medium;
+    margin: 8px;
+}
